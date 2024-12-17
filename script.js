@@ -24,7 +24,9 @@ const barChart = new Chart(barChartCanvas, {
             y: {
                 beginAtZero: true
             }
-        }
+        },
+        maintainAspectRatio: false,
+        responsive: true
     }
 });
 
@@ -55,5 +57,9 @@ const pieChart = new Chart(pieChartCanvas, {
             ],
             borderWidth: 1
         }]
+    },
+    options: {
+      maintainAspectRatio: false,
+      responsive: true
     }
 });
