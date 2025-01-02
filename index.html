@@ -3,27 +3,57 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Chart.js Example</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Artificial Neural Networks</title>
+    <link rel="stylesheet" href="css/styles.css">
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 </head>
 <body>
-    <div class="content">
-        <div class="text-container">
-            <h1>Chart.js Example</h1>
-            <p>This is an example of how to display interactive charts using Chart.js on GitHub Pages.</p>
-            <p>We have a bar chart on the right and a pie chart below it. Both charts display random data that is generated each time the page loads.</p>
+    <header>
+        <div class="header-container">
+            <div class="logo">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M9.5 2A2.5 2.5 0 0 1 12 4.5v15a2.5 2.5 0 0 1-5 0v-15A2.5 2.5 0 0 1 9.5 2Z"></path>
+                    <path d="M14.5 2A2.5 2.5 0 0 1 17 4.5v15a2.5 2.5 0 0 1-5 0"></path>
+                </svg>
+                <h1>Artificial Neural Networks</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#">Article</a></li>
+                    <li><a href="#">Talk</a></li>
+                    <li><a href="#">Read</a></li>
+                    <li><a href="#">View source</a></li>
+                    <li><a href="#">View history</a></li>
+                </ul>
+            </nav>
         </div>
-        <div class="charts-container">
-          <div class="chart-wrapper">
-            <canvas id="my-bar-chart"></canvas>
-          </div>
-          <div class="chart-wrapper">
-            <canvas id="my-pie-chart"></canvas>
-          </div>
+    </header>
+
+    <div class="main-container">
+        <div class="content-wrapper">
+            <nav class="side-nav">
+                <div class="toc-container">
+                    <h2>Contents</h2>
+                    <ul id="side-toc"></ul>
+                </div>
+            </nav>
+
+            <main>
+                <h1 class="main-title">Artificial Neural Networks</h1>
+                <p class="subtitle">From Wikipedia, the free encyclopedia</p>
+
+                <div class="content-toc">
+                    <h2>Contents</h2>
+                    <ol id="content-toc"></ol>
+                </div>
+
+                <div id="sections"></div>
+            </main>
         </div>
     </div>
 
-    <script src="script.js"></script>
+    <script src="js/sections.js"></script>
+    <script src="js/charts.js"></script>
+    <script src="js/navigation.js"></script>
 </body>
 </html>

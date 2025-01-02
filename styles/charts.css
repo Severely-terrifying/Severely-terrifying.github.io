@@ -1,0 +1,24 @@
+.chart-container {
+  background: var(--chart-background);
+  border: 1px solid var(--chart-border);
+  border-radius: 0.5rem;
+  padding: 1rem;
+  margin-bottom: 2rem;
+  height: 500px; /* Increased height for better visibility */
+  width: 100%;
+  max-width: 1200px; /* Match content width */
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.chart-container h3 {
+  font-size: 1rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.chart-container canvas {
+  width: 100% !important;
+  height: 450px !important; /* Adjusted for better proportion */
+}
